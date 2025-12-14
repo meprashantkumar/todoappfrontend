@@ -3,12 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "start": "npx -y serve -s dist -l 4173",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "npx -y serve -s dist -l 4173"
   },
   "dependencies": {
     "react": "^19.2.0",
